@@ -5,3 +5,5 @@ spring:
     config:
       enabled: true
       uri: http://localhost:8081
+    compatibility-verifier:
+      enabled: false

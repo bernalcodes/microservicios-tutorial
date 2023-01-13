@@ -90,11 +90,19 @@
 			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
 			<version>3.1.5</version>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-sleuth -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
 			<version>3.1.5</version>
+		</dependency> -->
+		
+		<!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-tracing -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-tracing</artifactId>
+			<version>1.0.1</version>
 		</dependency>
 	</dependencies>
 	
